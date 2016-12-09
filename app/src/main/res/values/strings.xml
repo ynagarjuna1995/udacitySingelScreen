@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Single Page Design</string>
+    <string name="business_name">PSR PG, HSR Layout</string>
+    <string name="facilities">Facilities</string>
+    <string name="deposit">2000/-</string>
+    <string name="address">198A, 22nd Cross Rd, Sector 3, HSR Layout, Bengaluru, Karnataka 560102</string>
+    <string name="address_label">Address</string>
+    <string name="rent_details">Rent Details</string>
+    <string name="single_label">1. Single Sharing Rooms</string>
+    <string name="single_value">9500/- Per Month</string>
+    <string name="double_label">2. Double Sharing Rooms</string>
+    <string name="double_value">7500/- Per Month</string>
+    <string name="three_label">3. Three Sharing Rooms</string>
+    <string name="three_value">6500/- Per Month</string>
+    <string name="four_label">4. Four Sharing Rooms</string>
+    <string name="four_value">5500/- Per Month</string>
+    <string name="deposit_label">One-time Deposit</string>
+    <string name="business_name_text">PSR PG HSR Layout, Bangalore</string>
+
+    <string-array name="BAImage_Disc">
+        <item>House Front View</item>
+        <item>Living Hall </item>
+        <item>Dining Space</item>
+        <item>Living Hall : Furnished </item>
+        <item>Bed Room :Single Bed </item>
+        <item>Kitchen </item>
+        <item>Bathrooms</item>
+        <item>Bedroom</item>
+    </string-array>
+
+    <string-array name="FIconsDisc">
+        <item>Telivision</item>
+        <item>Security CCTV</item>
+        <item>Daily Cleaning</item>
+        <item>Elevator Service</item>
+        <item>Luxrious Bathtub</item>
+        <item>King Size Beds</item>
+        <item>24/7 Internet</item>
+        <item>Near to Hospital</item>
+        <item>Food for 3 time/Day</item>
+        <item>No Drinking</item>
+        <item>No Smoking</item>
+    </string-array>
+</resources>

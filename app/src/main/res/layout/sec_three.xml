@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="18dp"
+    android:layout_margin="5dp"
+    android:layout_below="@id/secTwo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rent_details"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            />
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="2">
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="@string/single_label"
+                android:padding="5dip" />
+            <TextView
+                android:text="@string/single_value"
+                android:gravity="end"
+                android:padding="5dip" />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="@string/double_label"
+                android:padding="5dip" />
+            <TextView
+                android:text="@string/double_value"
+                android:gravity="end"
+                android:padding="5dip" />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="@string/three_label"
+                android:padding="5dip"
+                />
+            <TextView
+                android:text="@string/three_value"
+                android:gravity="end"
+                android:padding="5dip" />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="@string/four_label"
+                android:padding="5dip" />
+            <TextView
+                android:text="@string/four_value"
+                android:gravity="end"
+                android:padding="5dip" />
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="@string/deposit_label"
+                android:padding="10dip" />
+            <TextView
+                android:text="@string/deposit"
+                android:gravity="end"
+                android:padding="5dip" />
+        </TableRow>
+
+
+        </TableLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:stretchColumns="2">
+            <TableRow>
+                <ImageView
+                    android:src="@drawable/ic_location_on_black_24dp"
+                    android:padding="5dip"
+                    android:layout_gravity="start"/>
+                <TextView
+
+                    android:text="@string/address_label"
+                    android:paddingTop="8dip"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dip"
+                    />
+                <TextView
+                    android:text="@string/address"
+                    android:width="0dip"
+                    android:paddingLeft="10dip"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="15dip"
+                    />
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
